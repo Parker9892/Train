@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/train.css" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/js/train.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/6.0.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="results">
+        <div class="row">
+          <div class="col">
+            Train Name
+            <p id="name-display"></p>
+          </div>
+          <div class="col">
+            Destination
+            <p id="destination-display"></p>
+          </div>
+          <div class="col">
+            Frequency
+            <p id="frequency-display"></p>
+          </div>
+          <div class="col">
+            Next Arrival
+            <p id="arrival-display"></p>
+          </div>
+          <div class="col">
+            Minutes Away
+            <p id="frequency-display"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="input-row">
+        <div class="col-12">
+          <div>
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Train Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="train-name"
+                  placeholder="insert name here"
+                />
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Designation</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="train-destination"
+                  placeholder="insert Designation here"
+                />
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">First Train time</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="train-time"
+                  placeholder="insert time here"
+                />
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Frequency (Min)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="frequency"
+                  placeholder="insert here"
+                />
+              </div>
+              <div>
+                <input
+                  class="btn btn-primary"
+                  id="clicky"
+                  type="submit"
+                  value="Submit"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

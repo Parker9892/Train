@@ -1,0 +1,26 @@
+.form-group{
+    width: 60rem;
+    margin-left: 110px;
+    
+    
+
+}
+
+form{
+    margin-top: 100px;
+    border: 1px solid black;
+    width: 75rem;
+    margin-left: 100px;
+    padding: 25px;
+    
+}
+
+#clicky{
+    margin-left: 110px;
+}
+
+
+#results{
+    border: 1px solid black;
+    height: 20rem;
+}
